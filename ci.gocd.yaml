@@ -19,7 +19,7 @@ pipelines:
                - exec: # indicates type of task
                    command: make
                    arguments:
-                   - docker
+                   - list
   "yaml-example": # definition of yaml-example pipeline
     group: yaml-example
     label_template: "${mygit[:8]}"
